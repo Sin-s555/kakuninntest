@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+    background-color: #f1eae2;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: serif;
+    color: #5c4a3c;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0d7cd;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 24px;
+    color: #7c6654;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 6px;
+    color: #5c4a3c;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    color: #5c4a3c;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #7b685b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    align-self: center;
+}
+
+.login-button:hover {
+    background-color: #5c4a3c;
+}
+
+.register-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #3490dc;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #2779bd;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px; }

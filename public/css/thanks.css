@@ -1,0 +1,51 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #fff !important;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif !important;
+}
+
+.thanks-wrapper {
+    text-align: center;
+    padding: 120px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.thanks-background {
+    font-size: 160px;
+    font-weight: bold;
+    color: rgba(200, 180, 160, 0.08);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: 0;
+    user-select: none;
+    pointer-events: none;
+}
+
+.thanks-message {
+    font-size: 18px;
+    color: #6d5844;
+    margin-bottom: 30px;
+    z-index: 2;
+    position: relative;
+}
+
+.home-button {
+    display: inline-block;
+    background-color: #7b685b;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-size: 14px;
+    z-index: 2;
+    position: relative;
+}
+
+.home-button:hover {
+    background-color: #5c4a3c;
+}

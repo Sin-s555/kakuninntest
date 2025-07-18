@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+    background-color: #f1eae2;
+}
+
+.register-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+/* ログインボタン（右上・白枠） */
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #a18877;
+    padding: 6px 16px;
+    border: 1px solid #d2bda7;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    height: 32px;
+    box-shadow: none;
+}
+
+.login-button:hover {
+    background-color: #f5f5f5;
+}
+
+/* サイトタイトル（中央に寄せる） */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.site-title {
+    font-size: 28px;
+    margin: 0;
+    font-family: serif;
+    color: #5c4a3c;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* コンテナ＆フォーム */
+.register-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.register-box {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0d7cd;
+}
+
+.register-title {
+    text-align: center;
+    font-size: 24px;
+    color: #7c6654;
+    margin-bottom: 30px;
+    font-family: serif;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 6px;
+    color: #5c4a3c;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    color: #5c4a3c;
+}
+
+/* 登録ボタン（色と幅を変更） */
+.register-button {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #8c7b6d;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #7a6a5f;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.site-title {
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+}
+
+.login-button {
+    font-size: 16px;
+    padding: 8px 14px;
+    background-color: #289ADC;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}

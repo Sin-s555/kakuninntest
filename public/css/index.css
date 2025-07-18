@@ -1,0 +1,101 @@
+body {
+    background-color: #f3ebe3;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 28px;
+    font-family: serif;
+    color: #5c4a3c;
+    margin-top: 20px;
+}
+
+.admin-title {
+    text-align: center;
+    font-size: 24px;
+    color: #7c6654;
+    margin: 10px 0 30px;
+    font-family: serif;
+}
+
+.admin-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.admin-filter-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.admin-input,
+.admin-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 4px;
+}
+
+.admin-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.admin-button.search {
+    background-color: #7b685b;
+    color: white;
+}
+
+.admin-button.reset {
+    background-color: #e8ded1;
+    color: #7b685b;
+    border: 1px solid #d6c5b2;
+    text-decoration: none;
+}
+
+.admin-export-button {
+    background-color: #e8ded1;
+    border: none;
+    padding: 10px 20px;
+    color: #7b685b;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table thead {
+    background-color: #7b685b;
+    color: white;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 12px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+
+.detail-button {
+    padding: 6px 12px;
+    background-color: #f9f6f1;
+    border: 1px solid #e5dcd1;
+    color: #7b685b;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.pagination-wrapper {
+    margin-top: 20px;
+    text-align: center;
+}

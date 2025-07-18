@@ -1,0 +1,333 @@
+/* Reset CSS
+ * ========================================================================== */
+
+/* Box sizing reset for all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Inherit vertical alignment and text decoration on pseudo-elements */
+*::before,
+*::after {
+    vertical-align: inherit;
+    text-decoration: inherit;
+}
+
+/* Base html styles */
+html {
+    word-break: break-word;
+    tab-size: 4;
+    line-height: 1.5;
+    cursor: default;
+
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Remove default body margin */
+body {
+    margin: 0;
+}
+
+/* Headings */
+h1 {
+    margin: 0.67em 0;
+    font-size: 2em;
+}
+
+/* Remove margin on nested lists */
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ul dl,
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin: 0;
+}
+
+/* Horizontal rule */
+hr {
+    overflow: visible;
+    height: 0;
+}
+
+/* Main element display fix */
+main {
+    display: block;
+}
+
+/* Navigation list reset */
+nav ol,
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Preformatted text font */
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Links */
+a {
+    background-color: transparent;
+}
+
+/* Abbreviation underline */
+abbr[title] {
+    text-decoration: underline dotted;
+}
+
+/* Bold font weight */
+b,
+strong {
+    font-weight: bolder;
+}
+
+/* Code blocks font */
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Small text size */
+small {
+    font-size: 80%;
+}
+
+/* Embedded media vertical alignment */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/* Inline block for audio and video */
+audio,
+video {
+    display: inline-block;
+}
+
+/* Hide audio without controls */
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/* Remove border on iframe and img */
+iframe,
+img {
+    border-style: none;
+}
+
+/* SVG fill color */
+svg:not([fill]) {
+    fill: currentColor;
+}
+
+/* Hide overflow in svg */
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Table collapse borders */
+table {
+    border-collapse: collapse;
+}
+
+/* Form element margin reset */
+button,
+input,
+select {
+    margin: 0;
+}
+
+/* Button overflow and text-transform */
+button {
+    overflow: visible;
+    text-transform: none;
+}
+
+/* Button appearance */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    appearance: button;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+}
+
+/* Fieldset padding and border */
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+    border: 1px solid #a0a0a0;
+}
+
+/* Input overflow */
+input {
+    overflow: visible;
+}
+
+/* Legend display and color */
+legend {
+    display: table;
+    max-width: 100%;
+    color: inherit;
+    white-space: normal;
+}
+
+/* Progress element display */
+progress {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+/* Remove text-transform on select */
+select {
+    text-transform: none;
+}
+
+/* Textarea styles */
+textarea {
+    overflow: auto;
+    margin: 0;
+    resize: vertical;
+}
+
+/* Remove padding on checkbox/radio */
+[type="checkbox"],
+[type="radio"] {
+    padding: 0;
+}
+
+/* Search input styles */
+[type="search"] {
+    appearance: textfield;
+    -webkit-appearance: textfield;
+}
+
+/* Number input spin buttons */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/* Placeholder text style */
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+}
+
+/* Remove search decoration */
+::-webkit-file-upload-button {
+    font: inherit;
+    appearance: button;
+    -webkit-appearance: button;
+}
+
+
+/* Firefox focus styles */
+::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+
+:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+:-moz-ui-invalid {
+    box-shadow: none;
+}
+
+/* Interactive elements */
+details {
+    display: block;
+}
+
+dialog {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 1em;
+    width: fit-content;
+    height: fit-content;
+    border: solid;
+    background-color: white;
+    color: black;
+}
+
+dialog:not([open]) {
+    display: none;
+}
+
+summary {
+    display: list-item;
+}
+
+/* Canvas display */
+canvas {
+    display: inline-block;
+}
+
+/* Template element */
+template {
+    display: none;
+}
+
+/* Remove tap delay on interactive elements */
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+/* Hidden elements */
+[hidden] {
+    display: none;
+}
+
+/* Accessibility cursor styles */
+[aria-busy="true"] {
+    cursor: progress;
+}
+
+[aria-controls] {
+    cursor: pointer;
+}
+
+[aria-disabled="true"],
+[disabled] {
+    cursor: not-allowed;
+}
+
+/* Visually hidden accessible elements */
+[aria-hidden="false"][hidden] {
+    display: initial;
+}
+
+[aria-hidden="false"][hidden]:not(:focus) {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}

@@ -1,0 +1,76 @@
+body {
+    background-color: #f5f0ea;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: serif;
+    color: #5c4a3c;
+}
+
+.confirm-title {
+    text-align: center;
+    font-size: 22px;
+    color: #7c6654;
+    margin: 20px 0 30px;
+    font-family: serif;
+}
+
+.confirm-wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.confirm-table th,
+.confirm-table td {
+    padding: 15px;
+    border: 1px solid #eee;
+    vertical-align: top;
+}
+
+.confirm-table th {
+    width: 30%;
+    background-color: #b9a895;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+}
+
+.confirm-table td {
+    color: #333;
+    background-color: #fff;
+}
+
+.confirm-buttons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.send-button,
+.back-button {
+    background-color: #7b685b;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.send-button:hover,
+.back-button:hover {
+    background-color: #5c4a3c;
+}
